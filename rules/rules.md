@@ -41,8 +41,12 @@ Detta dokument utgör regelverket för Schack 2, en modifierad uppföljare till 
 
 202.1a. Ett namn. Varje pjästyp har ett unikt namn
 
-202.1b. Ett värde. Pjäser med högre värde brukar vara mer användbara eller skyddsvärda. Ett värde är oftast antingen ett heltal är "Kunglig". Om något försöker räkna på "Kunglig" adderat eller subtraherat med något blir resultatet "Kunglig". Om det divideras eller multipliceras med ett nollskilt tal blir resultatet "Kunglig" om talet är positivt, eller "Antikunglig" om talet är negativt. Om "Kunglig" och "Antikunglig" adderas blir resultatet 0. Detta sker innan andra additioner och subtraktioner som utförs samtidigt. "Antikunglig" följer samma regel, med undantaget att det blir "Antikunglig" av operationer som "Kunglig" blir "Kunglig" av, och vice versa. Det största värdet i en mängd som innehåller "Kunglig" är "Kunglig", och det minsta värdet i en mängd som innehåller "Antikunglig" är "Antikunglig". "Kunglig" är endast det minsta värdet i en mängd om alla värden är "Kunglig", och "Antikunglig" är endast det största värdet i en mängd om alla värden är "Antikunglig".
+202.1b. Ett värde. Pjäser med högre värde brukar vara mer användbara eller skyddsvärda. Ett värde är oftast antingen ett heltal eller oändligt.
 
 202.1c. En variabel mängd passiva regler. Dessa regler anger själva när och i vilken utsträckning de gäller, men de har bara effekt när minst en pjäs av den typen existerar. Oftast består de av att modifiera en handling som en spelare gör, eller att utföra en handling vid en viss tidpunkt.
 
 202.1d. Ett eller flera drag. Ett drag består av en serie instruktioner, som kan innebära förflyttning eller tagning av pjäser, vinnande eller förlorande av spelet, ändring av pjäsers tillstånd eller värden, eller ändring av rutors tillstånd. Om en pjäs har flera drag måste ett av dem väljas för att göra ett drag med den pjäsen. Ett drag kan ha krav för att det ska kunna utföras; som regel kan ett drag inte utföras om det kräver ett val av något som inte går att välja (t.ex. en ledig ruta som uppfyller vissa krav). Ett drag som inte kan utföras kallas för ett illegalt drag.
+
+202.2. Pjästyperna som just nu finns är följande:
+
+202.2a. 
