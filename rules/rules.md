@@ -47,6 +47,10 @@ Detta dokument utgör regelverket för Schack 2, en modifierad uppföljare till 
 
 202.1d. Ett eller flera drag. Ett drag består av en serie instruktioner, som kan innebära förflyttning eller tagning av pjäser, vinnande eller förlorande av spelet, ändring av pjäsers tillstånd eller värden, eller ändring av rutors tillstånd. Om en pjäs har flera drag måste ett av dem väljas för att göra ett drag med den pjäsen. Ett drag kan ha krav för att det ska kunna utföras; som regel kan ett drag inte utföras om det kräver ett val av något som inte går att välja (t.ex. en ledig ruta som uppfyller vissa krav). Ett drag som inte kan utföras kallas för ett illegalt drag.
 
+202.1e. En eller flera kategorier. 
+
 202.2. Pjästyperna som just nu finns är följande:
 
-202.2a. 
+202.2a. Bonde. Värde: 1. Passiva regler: Inga. Drag: \[
+{Krav: Bonden är på rad 2 och vit, eller rad 7 och svart OCH de två rutorna framför . Handling: Flytta bonden två rutor framåt.
+]
